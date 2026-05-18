@@ -1,0 +1,21 @@
+.wrap   { margin-top:8px; }
+.toggle {
+  display:flex; align-items:center; gap:6px;
+  background:rgba(0,255,148,.06); border:1px solid rgba(0,255,148,.2);
+  color:#00FF94; font-size:12px; padding:5px 12px;
+  border-radius:6px; cursor:pointer; font-family:monospace;
+  transition:background .2s;
+}
+.toggle:hover { background:rgba(0,255,148,.1); }
+.icon    { font-size:13px; }
+.chevron { margin-left:auto; font-size:10px; }
+
+.list   { margin-top:6px; display:flex; flex-direction:column; gap:4px; }
+.source {
+  display:flex; align-items:center; gap:8px;
+  background:#161616; border:1px solid #2A2A2A;
+  border-radius:6px; padding:7px 12px; font-size:12px;
+}
+.filename { color:#F0EDE6; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.page     { color:#6B6866; white-space:nowrap; }
+.score    { color:#00FF94; font-family:monospace; white-space:nowrap; }
